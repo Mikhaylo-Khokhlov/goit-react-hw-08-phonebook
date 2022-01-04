@@ -10,7 +10,7 @@ import { Switch } from 'react-router-dom';
 import { useEffect, Suspense, lazy } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { getContacts, getFilter } from './redux/contacts/contacts-selector';
-import { authOperations, authSelectors } from './redux/auth';
+import { authOperations } from './redux/auth';
 import {
   addContact,
   fetchContacts,
@@ -39,7 +39,7 @@ export default function App() {
     if (identicalName === false) {
       dispatch(addContact(newContact));
     } else {
-      alert(name + ' ' + 'is already in contacts');
+      alert(name + ' is already in contacts');
     }
   };
 
