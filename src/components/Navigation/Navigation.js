@@ -13,7 +13,12 @@ const Navigation = () => {
       </NavLink>
 
       {isLoggedIn && (
-        <NavLink to="/contacts" exact style={s.link} activeStyle={s.activeLink}>
+        <NavLink
+          to="/contacts"
+          exact
+          className={s.link}
+          activeClassName={s.activeLink}
+        >
           Контакты
         </NavLink>
       )}
