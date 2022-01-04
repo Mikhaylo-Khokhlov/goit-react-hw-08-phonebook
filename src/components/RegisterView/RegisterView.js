@@ -68,7 +68,7 @@ export default function RegisterView() {
           />
         </label>
 
-        <button className={s.custombtn + ' ' + s.btn1} type="submit">
+        <button className={s.custombtn} type="submit">
           Зарегистрироваться
         </button>
       </form>

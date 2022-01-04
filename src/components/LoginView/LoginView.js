@@ -51,7 +51,7 @@ export default function LoginView() {
           />
         </label>
 
-        <button className={s.custombtn + ' ' + s.btn1} type="submit">
+        <button className={s.custombtn} type="submit">
           Войти
         </button>
       </form>

@@ -10,7 +10,7 @@ export default function UserMenu() {
     <div className={s.container}>
       <span className={s.name}>Добро пожаловать, {name}</span>
       <button
-        className={s.custombtn + ' ' + s.btn1}
+        className={s.custombtn}
         type="button"
         onClick={() => dispatch(authOperations.logOut())}
       >
