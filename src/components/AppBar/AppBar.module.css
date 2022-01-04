@@ -1,0 +1,14 @@
+.header {
+  border-bottom: 1px solid #f30000;
+  background-color: #000000;
+}
+
+.headerContainer {
+  max-width: 1192px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
